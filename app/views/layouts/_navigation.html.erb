@@ -1,0 +1,45 @@
+<header class="header header-shrink header-inverse fixed-top">
+   <div class="container">
+      <nav class="navbar navbar-expand-lg px-md-0">
+         <a class="navbar-brand" href="#">
+            <span class="logo-default">
+               <h2 class="text-white">Contac Media</h2>
+            </span>
+            <span class="logo-inverse">
+               <h2 class="text-white">Contac Media</h2>
+            </span>
+         </a>
+         <button class="navbar-toggler p-0" data-toggle="collapse" data-target="#navbarNav">
+            <div class="hamburger hamburger--spin js-hamburger">
+               <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+               </div>
+            </div>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item active">
+                  <%= link_to 'HOME', home_index_path, class: "nav-link" %>
+               </li>
+               <li class="nav-item active">
+                  <%= link_to 'PACKAGES', pages_Packages_path, class: "nav-link" %>
+               </li>
+              <% if false %>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Blog
+                  <i class="fa fa-chevron-down u-fs-12 ml-1"></i>
+                  </a>
+                  <div class="dropdown-menu box-shadow-v2" aria-labelledby="navbarDropdown">
+                     <%= link_to 'Weekly Blog', pages_Blog_path %>
+                  </div>
+               </li>
+              <% end %>
+               <li class="nav-item dropdown">
+                  <%= link_to 'Contact', pages_Contact_path, class: "nav-link" %>
+               </li>
+            </ul>
+         </div>
+      </nav>
+   </div>
+</header>
