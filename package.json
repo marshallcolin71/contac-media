@@ -1,7 +1,13 @@
 {
-  "name": "devdap-app",
+  "name": "contac",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.1.1",
     "jquery": "^3.3.1"
-  }
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:marshallcolin71/contac-media.git",
+  "author": "Colin <marshallcolin71@gmail.com>",
+  "license": "MIT"
 }
